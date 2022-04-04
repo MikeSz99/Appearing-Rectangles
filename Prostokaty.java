@@ -23,6 +23,6 @@ public class Prostokaty extends JPanel implements ControllerEventListener {
             int y = (int) ((Math.random() * 100) + 30);
             g.fillRect(x,y,wys,szer);
             komunikat = false;
-        } // koniec if
-    } // koniec metody
+        } 
+    } 
 }
