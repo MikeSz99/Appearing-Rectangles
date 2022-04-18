@@ -6,8 +6,6 @@ class MiniOdtwarzacz {
     static JFrame ramka = new JFrame("Rectangles appearing");
     static Prostokaty panel;
 
-
-
    MiniOdtwarzacz(){
        doRoboty();
    }
