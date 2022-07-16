@@ -32,14 +32,14 @@ class MiniPlayer {
                 sciezka.add(tworzZdarzenie(144, 1, r, 100, i));
                 sciezka.add(tworzZdarzenie(176, 1, 127, 0, i));
                 sciezka.add(tworzZdarzenie(128, 1, r, 100, i + 2));
-            } // koniec ptli
+            } 
             sekwenser.setSequence(sekw);
             sekwenser.setTempoInBPM(220);
             sekwenser.start();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-    } // koniec metody
+    } 
     public MidiEvent tworzZdarzenie(int plc, int kanal, int jeden, int dwa, int takt) {
         MidiEvent zdarzeni = null;
         try {
