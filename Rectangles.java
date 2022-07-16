@@ -3,7 +3,7 @@ import javax.sound.midi.*;
 import javax.swing.*;
 import java.awt.*;
 
-public class Prostokaty extends JPanel implements ControllerEventListener {
+public class Rectangles extends JPanel implements ControllerEventListener {
 
     boolean komunikat = false;
     public void controlChange(ShortMessage zdarzenie) {
