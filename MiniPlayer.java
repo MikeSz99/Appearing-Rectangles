@@ -2,12 +2,12 @@
 import javax.sound.midi.*;
 import javax.swing.*;
 
-class MiniOdtwarzacz {
+class MiniPlayer {
     static JFrame ramka = new JFrame("Rectangles appearing");
     static Prostokaty panel;
 
-   MiniOdtwarzacz(){
-       doRoboty();
+   MiniPlayer(){
+       begin();
    }
 
     public void konfigurujGUI() {
@@ -16,9 +16,9 @@ class MiniOdtwarzacz {
         ramka.setContentPane(panel);
         ramka.setBounds(30, 30, 600, 600);
         ramka.setVisible(true);
-    } // koniec metody
+    } 
 
-    public void doRoboty() {
+    public void begin() {
         konfigurujGUI();
         try {
             Sequencer sekwenser = MidiSystem.getSequencer();
