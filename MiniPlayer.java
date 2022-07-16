@@ -12,7 +12,7 @@ class MiniPlayer {
 
     public void konfigurujGUI() {
         ramka.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        panel = new Prostokaty();
+        panel = new Rectangles();
         ramka.setContentPane(panel);
         ramka.setBounds(30, 30, 600, 600);
         ramka.setVisible(true);
